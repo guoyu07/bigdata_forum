@@ -131,3 +131,9 @@ SiteConfig.save_default("newbie_notices",%(<p>为提高社区质量，防止新�
 # SiteNode.create(:name => "国内企业", :sort => 95)
 # SiteNode.create(:name => "其他", :sort => 94)
 
+s1 = Section.create(:name => "BigData")
+Node.create(:name => "Hadoop",:summary => "...", :section_id => s1.id)
+Node.create(:name => "MongoDB",:summary => "...", :section_id => s1.id)
+Node.create(:name => "Redis",:summary => "...", :section_id => s1.id)
+Node.create(:name => "Ruby",:summary => "...", :section_id => s1.id)
+
