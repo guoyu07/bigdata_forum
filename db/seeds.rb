@@ -6,11 +6,9 @@
 # SiteConfig.index_html
 SiteConfig.save_default("index_html",<<-eos
 <div class="box" style="text-align:center;">
-  <p><img alt="Big_logo" src="/assets/big_logo.png"></p>
+  <p><img alt="Big_logo" src="/assets/bigdata/big-data.png"></p>
   <p></p>
-  <p>Ruby China Group， 致力于构建完善的 Ruby 中文社区。</p>
-  <p>功能正在完善中，欢迎 <a href="http://github.com/huacnlee/ruby-china">贡献代码</a> 。</p>
-  <p>诚邀有激情的活跃 Ruby 爱好者参与维护社区，联系 <b style="color:#c00;">lgn21st@gmail.com</b></p>
+  <p>Big Data China 致力于分享最新的大数据处理经验。</p>
 </div>
 eos
 )
