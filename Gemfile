@@ -111,3 +111,7 @@ group :production do
   gem 'unicorn'
   gem 'newrelic_rpm'
 end
+
+# fix Could not find a JavaScript runtime
+gem 'therubyracer'
+gem 'execjs'

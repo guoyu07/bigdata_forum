@@ -1,9 +1,6 @@
-## Ruby China
+## Big Data Forum
 
-This is the source code of [Ruby China](http://ruby-china.org) website.
-
-[![Build
-Status](https://secure.travis-ci.org/ruby-china/ruby-china.png?branch=master&.png)](http://travis-ci.org/ruby-china/ruby-china)
+This is project is based on [Ruby China](http://ruby-china.org)
 
 ## Requirements
 
@@ -17,8 +14,8 @@ Status](https://secure.travis-ci.org/ruby-china/ruby-china.png?branch=master&.pn
 ## Install
 
 ```bash
-git clone git://github.com/ruby-china/ruby-china.git
-cd ruby-china
+git clone https://github.com/manageyp/bigdata_forum.git
+cd bigdata_forum
 ruby setup.rb
 # ensure that memcached has started up
 rails s
@@ -57,20 +54,14 @@ RAILS_ENV=test bundle exec rake spec:javascript
 
 * http://code.google.com/intl/zh-CN/apis/loader/signup.html
 
-## Contributors
-
-* [Contributors](https://github.com/ruby-china/ruby-china/contributors)
-
 ## Thanks
-
+* [Ruby China](https://github.com/ruby-china/ruby-china)
 * [Twitter Bootstrap](https://twitter.github.com/bootstrap)
 * [GentleFace Icons](http://www.gentleface.com/free_icon_set.html)
 
-Forked from [Homeland Project](https://github.com/huacnlee/homeland)
-
 ## License
 
-Copyright (c) 2011-2012 Ruby China
+Copyright (c) 2011-2012 Big Data Forum
 
 Released under the MIT license:
 
