@@ -14,7 +14,7 @@ pid "#{Rails.root}/tmp/pids/unicorn.pid"
 stderr_path "#{Rails.root}/log/unicorn.log"
 stdout_path "#{Rails.root}/log/unicorn.log"
 
-listen 5000, :tcp_nopush => false
+listen 3000, :tcp_nopush => false
 
 listen "/tmp/unicorn.ruby-china.sock"
 worker_processes 6
