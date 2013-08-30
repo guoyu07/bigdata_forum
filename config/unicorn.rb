@@ -6,7 +6,7 @@ module Rails
   end
 end
 puts Rails.root
-rails_env = ENV["RAILS_ENV"] || "production"
+rails_env = ENV["RAILS_ENV"] || "development"
 
 preload_app true
 working_directory Rails.root
